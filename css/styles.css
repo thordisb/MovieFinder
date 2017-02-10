@@ -19,3 +19,18 @@ img{
 	padding-top: 100px;
 	text-align: center;
 }
+
+@media print, screen and (max-width: 400px) {
+
+	.navbar{
+		height: 200px;
+	}
+	.logo{
+		height: 42px;
+
+	}
+	.search{
+		height:20px;
+		width: 20px;
+	}
+ }
