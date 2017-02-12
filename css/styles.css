@@ -1,4 +1,36 @@
+img{
+	width: 100%;
+	height: 100%;
+}
 .navbar{
 	background-color: #FAA20E;
-	height: 200px;
+	height: 480px;
+	padding-top: 27px;
 }
+.logo{
+	height: 105px;
+}
+.search{
+	height:51px;
+	width: 51px;
+}
+
+.welcometext{
+	padding-top: 100px;
+	text-align: center;
+}
+
+@media print, screen and (max-width: 400px) {
+
+	.navbar{
+		height: 200px;
+	}
+	.logo{
+		height: 42px;
+
+	}
+	.search{
+		height:20px;
+		width: 20px;
+	}
+ }
