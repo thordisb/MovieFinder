@@ -6,6 +6,10 @@ img{
 	background-color: #FAA20E;
 	height: 480px;
 	padding-top: 27px;
+	background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+	background:linear-gradient(#FAA20E, #E7833B);
 }
 .logo{
 	height: 105px;
@@ -24,6 +28,10 @@ footer{
 	margin-top: 50px;
 	height: 305px;
 	background-color: #FAA20E;
+	 background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+	background:linear-gradient(#FAA20E, #E7833B);
 }
 footer .logo{
 	margin-top: 50px;  
