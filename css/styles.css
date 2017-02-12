@@ -11,14 +11,41 @@ img{
 	height: 105px;
 }
 .search{
-	height:51px;
-	width: 51px;
+	font-size: 54px;
+	color: #fff;
 }
 
 .welcometext{
 	padding-top: 100px;
 	text-align: center;
+	color: #fff;
 }
+footer{
+	margin-top: 50px;
+	height: 305px;
+	background-color: #FAA20E;
+}
+footer .logo{
+	margin-top: 50px;  
+}
+.footerlist{
+	color: #fff;
+	margin-top: 50px;
+	float: left;
+	list-style: none;
+}
+
+.footerlist a{
+	color: #fff;
+}
+.CopyrightText{
+	font-size: 12px;
+	color: #FFF;
+}
+
+
+
+
 
 @media print, screen and (max-width: 400px) {
 
@@ -30,7 +57,22 @@ img{
 
 	}
 	.search{
-		height:20px;
-		width: 20px;
+		font-size: 20px;
+	}
+	.welcometext{
+		padding-top: 30px;
+	}
+	footer{
+		height: 150px;
+	}
+	footer .logo{
+	margin-top: 25px;  
+	}
+	.footerlist{
+		font-size: 9px;
+		margin-top: 25px;
+	}
+	.CopyrightText{
+		font-size: 7px;
 	}
  }
