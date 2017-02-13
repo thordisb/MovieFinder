@@ -1,7 +1,10 @@
-img{
+body{
+	background-color: #F2ECE7;
+}
+/*img{
 	width: 100%;
 	height: 100%;
-}
+}*/
 .navbar{
 	background-color: #FAA20E;
 	height: 480px;
@@ -10,28 +13,36 @@ img{
     background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
 	background:linear-gradient(#FAA20E, #E7833B);
+	z-index: 0;
 }
 .logo{
 	height: 105px;
 }
+
+.navbar .logo{
+	z-index: 99;
+}
 .search{
 	font-size: 54px;
 	color: #fff;
+	z-index: 99;
 }
 
 .welcometext{
 	padding-top: 100px;
 	text-align: center;
 	color: #fff;
+	z-index: 1;
 }
 footer{
-	margin-top: 50px;
 	height: 305px;
 	background-color: #FAA20E;
 	 background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
 	background:linear-gradient(#FAA20E, #E7833B);
+	position: absolute;
+	width: 100vw;
 }
 footer .logo{
 	margin-top: 50px;  
@@ -50,9 +61,56 @@ footer .logo{
 	font-size: 12px;
 	color: #FFF;
 }
+/* about Movie */
+.moviebanner{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	margin-top: 0px;
+	z-index: 2;
+	width: 100vw;
+}
+.moviebanner img{
+	width: 100%;
+}
+.moviebanner{
+	display: none;
+  -ms-transform: skew(0deg,-10deg);
+  -webkit-transform: skew(0deg,-10deg);
+  transform: skew(0deg,-10deg);
+  /*outline:1px solid #fff;*/
 
-
-
+  overflow: hidden;
+}
+.skew{
+ 
+  left:-60px;
+  background-image: url("http://static5.gamespot.com/uploads/scale_super/1552/15524586/3095585-rogue+one++a+star+wars+story+-+celebration+reel.00_02_32_11.still032.jpg");
+  background-repeat: no-repeat;
+  width:100vw;
+  height: 75vh;  
+  -ms-transform: skew(0deg,10deg);
+  -webkit-transform: skew(0deg,10deg);
+  transform: skew(0deg,10deg);
+}
+#moviepic{
+	height: 230px;
+}
+.round{
+	display: inline-block;
+	background: #E7833B;
+	height:80px; 
+	width: 80px;
+	padding: 17px;
+	border-radius: 50%;
+}
+.stills{
+	width: 221px;
+	height: 221px;
+	background-color: blue;
+	margin: 2px;
+	}
 
 
 @media print, screen and (max-width: 400px) {
