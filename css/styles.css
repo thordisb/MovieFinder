@@ -21,9 +21,9 @@ body{
 	background:linear-gradient(#FAA20E, #E7833B);
 	z-index: 0;
 }
-.navbarhide{
+/*.navbarhide{
 	display:none; 
-}
+}*/
 .logo{
 	height: 105px;
 }
@@ -98,11 +98,11 @@ footer .logo{
   	background-color: #fff;
 }
 .main{
-	margin-top: 600px;
+	margin-top: 130px;
 	z-index: 50;
 }
 #moviepic{
-	height: 230px;
+	height: 556px;
 }
 .round{
 	display: inline-block;
@@ -132,9 +132,9 @@ footer .logo{
 	.navbar{
 		height: 200px;
 	}
-	.navbarhide{
+	/*.navbarhide{
 		display: none;
-	}
+	}*/
 	.logo{
 		height: 42px;
 
@@ -157,6 +157,15 @@ footer .logo{
 	}
 	.CopyrightText{
 		font-size: 7px;
+	}
+	.main{
+	margin-top: -35px;
+	}
+	.skew{
+	top: -20px;
+	}
+	#moviepic{
+		height: 225px;
 	}
 	.round{
 		height:40px; 
