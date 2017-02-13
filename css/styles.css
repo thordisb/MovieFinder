@@ -1,5 +1,11 @@
+html{
+	 position: relative;
+    min-height: 100%;
+}
 body{
 	background-color: #F2ECE7;
+	 margin: 0 0 100px; /* bottom = footer height */
+    padding: 25px;
 }
 /*img{
 	width: 100%;
@@ -14,6 +20,9 @@ body{
     background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
 	background:linear-gradient(#FAA20E, #E7833B);
 	z-index: 0;
+}
+.navbarhide{
+	display:none; 
 }
 .logo{
 	height: 105px;
@@ -74,25 +83,23 @@ footer .logo{
 .moviebanner img{
 	width: 100%;
 }
-.moviebanner{
-	display: none;
-  -ms-transform: skew(0deg,-10deg);
-  -webkit-transform: skew(0deg,-10deg);
-  transform: skew(0deg,-10deg);
-  /*outline:1px solid #fff;*/
-
-  overflow: hidden;
+.glitter{
+  -ms-transform: skew(0deg,-5deg);
+  -webkit-transform: skew(0deg,-5deg);
+  transform: skew(0deg,-5deg);
+  	background-color: #fff;
+	
 }
 .skew{
- 
-  left:-60px;
-  background-image: url("http://static5.gamespot.com/uploads/scale_super/1552/15524586/3095585-rogue+one++a+star+wars+story+-+celebration+reel.00_02_32_11.still032.jpg");
-  background-repeat: no-repeat;
-  width:100vw;
-  height: 75vh;  
-  -ms-transform: skew(0deg,10deg);
-  -webkit-transform: skew(0deg,10deg);
-  transform: skew(0deg,10deg);
+	position: absolute;
+	top: -128px;
+  	width:100vw;
+  	height: 260px;
+  	background-color: #fff;
+}
+.main{
+	margin-top: 600px;
+	z-index: 50;
 }
 #moviepic{
 	height: 230px;
@@ -124,6 +131,9 @@ footer .logo{
 
 	.navbar{
 		height: 200px;
+	}
+	.navbarhide{
+		display: none;
 	}
 	.logo{
 		height: 42px;
