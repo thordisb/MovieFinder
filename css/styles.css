@@ -110,6 +110,13 @@ footer .logo{
 	height: 221px;
 	background-color: blue;
 	margin: 2px;
+	display: block;
+	}
+.still{
+	display: block;
+}
+.plot{
+	display: block;
 	}
 
 
@@ -140,5 +147,19 @@ footer .logo{
 	}
 	.CopyrightText{
 		font-size: 7px;
+	}
+	.round{
+		height:40px; 
+		width: 40px;
+		padding: 7px;
+	}
+	.stills{
+		display: none;
+	}
+	.still{
+		display: none;
+	}
+	.plot{
+		display: none;
 	}
  }
