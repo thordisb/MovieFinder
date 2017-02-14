@@ -1,20 +1,5 @@
 
-* {
-      box-sizing: border-box;
-    }
 
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-        color: black;
-    }
 
 html {
 	margin: 0px;
@@ -155,20 +140,11 @@ footer .logo{
 /*----------------------------------------forsíða------------------------*/
 	.container {
 		height: 1200px;
-		}
-	/*forsíða*/
-.card{
-
-		height: 500px;
-		display: inline-block;
-		width: 100%;
-		max-width: 2000px;
 	}
 	
     .slider {
         width: 100%; 
-        max-width: 2000px;   
-       
+          
     }
 
     .slick-slide {
@@ -181,17 +157,6 @@ footer .logo{
 
   
 
-
-
-
- .slider {
-        width: 50%;
-        margin: 100px auto;
-        background-color: #fff; 
-    }
-.cast{
-
-}
 
 @media print, screen and (max-width: 400px) {
 
