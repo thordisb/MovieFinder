@@ -36,6 +36,11 @@ body{
 	color: #fff;
 	z-index: 99;
 }
+#close{
+	font-size: 54px;
+	color: #fff;
+	z-index: 99;
+}
 
 .welcometext{
 	padding-top: 100px;
@@ -98,7 +103,7 @@ footer .logo{
   	background-color: #fff;
 }
 .main{
-	margin-top: 130px;
+	margin-top: 390px;
 	z-index: 50;
 }
 #moviepic{
@@ -140,6 +145,9 @@ footer .logo{
 
 	}
 	.search{
+		font-size: 20px;
+	}
+	#close{
 		font-size: 20px;
 	}
 	.welcometext{

@@ -4,6 +4,52 @@ $(document).ready(function(){
 		dots: true,
 		arrows: true
 	})
+
+	var token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1OGEyMzI5YWQxM2U2YmQ4NzJlZjZkZjQiLCJnbG9iYWxhZG1pbiI6ZmFsc2UsImFkbWluIjpmYWxzZSwiYWN0aXZlIjp0cnVlLCJmdWxsbmFtZSI6Ikhqw7ZyZMOtcyBFc3RlciBHdcOwasOzbnNkw7N0dGlyIiwiZW1haWwiOiJoam9yZGlzLmVzdGVyQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiaGpvcmRpc2VzdGVyIiwicGFzc3dvcmQiOiIkMmEkMDgkTVptODJMSEh2SkJvZy5KRkwwU3oyLjl3cHlDSFRIWURna0tVNUhZS0dCRVBWejJ2WHlQQnEiLCJkb21haW4iOiJ2ZWZza8OzbGlubiIsIm1lc3NhZ2UiOiJTa8OzbGF2ZXJrZWZuaSIsImlhdCI6MTQ4NzAyNjQxMiwiZXhwIjoxNDg3MTEyODEyfQ.m2KZblJ24Ja3_rx7XlwvWEsX2ysxxrUD57wAVDwNQPg"
 	
-	$('.video').coverVid(1280,720);
+
+	$.ajax({
+    url : 'http://api.kvikmyndir.is/movies?',
+    type : 'GET',
+    headers: { 
+        "x-access-token" : token
+    },
+    dataType : 'json',
+    success : function (response) {
+        console.log(response);
+    }
+});
+
+
+	//$('.video').coverVid(1280,720);
+
+	/*$.ajax({
+    url : 'http://api.kvikmyndir.is/authenticate',
+    type : 'POST', 
+   	data : {
+        username : "hjordisester",
+        password : "xubq8a55"
+    },
+    dataType : 'json',
+    success : function (response) {
+        console.log(response);
+    }
+	}); */
+
+	var r = new XMLHttpRequest();
+r.open("GET", "https://api.themoviedb.org/3/movie/550?api_key=93e810199af17af2ed9f9b206f27bffe", true);
+r.onreadystatechange = function () {
+  if (r.readyState != 4 || r.status != 200) return;
+  const response = JSON.parse(r.responseText)
+  const container = document.createElement("div");
+  const image = document.createElement("img");
+  const title = document.createElement("h1");
+  image.src = "http://image.tmdb.org/t/p/original" + response.backdrop_path
+  title.innerHTML = response.original_title;
+  container.append(image);
+  container.append(title);
+  document.body.append(container);
+
+};
+r.send("banana=yellow");
 });
