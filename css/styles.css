@@ -22,9 +22,13 @@
     }
 
 
+<<<<<<< HEAD
 
 
 html {
+=======
+html{
+>>>>>>> 600ff2986cfb5a245be374f87bc2aea1bfcce2b7
 	 position: relative;
     min-height: 100%;
 }
@@ -63,6 +67,11 @@ body{
 	color: #fff;
 	z-index: 99;
 }
+#close{
+	font-size: 54px;
+	color: #fff;
+	z-index: 99;
+}
 
 .welcometext{
 	padding-top: 100px;
@@ -97,7 +106,10 @@ footer .logo{
 	font-size: 12px;
 	color: #FFF;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 600ff2986cfb5a245be374f87bc2aea1bfcce2b7
 /* about Movie */
 .moviebanner{
 	position: absolute;
@@ -126,7 +138,7 @@ footer .logo{
   	background-color: #fff;
 }
 .main{
-	margin-top: 130px;
+	margin-top: 390px;
 	z-index: 50;
 }
 #moviepic{
@@ -153,8 +165,16 @@ footer .logo{
 .plot{
 	display: block;
 	}
+<<<<<<< HEAD
 
 
+=======
+	/*forsíða*/
+	.card{
+		height: 500px;
+		display: inline-block;
+	}
+>>>>>>> 600ff2986cfb5a245be374f87bc2aea1bfcce2b7
 
 @media print, screen and (max-width: 400px) {
 
@@ -169,6 +189,9 @@ footer .logo{
 
 	}
 	.search{
+		font-size: 20px;
+	}
+	#close{
 		font-size: 20px;
 	}
 	.welcometext{
