@@ -136,10 +136,17 @@ footer .logo{
 .plot{
 	display: block;
 	}
+<<<<<<< HEAD
 /*----------------------------------------forsíða------------------------*/
 	.container {
 		height: 1200px;
 		
+=======
+	/*forsíða*/
+.card{
+		height: 500px;
+		display: inline-block;
+>>>>>>> 44e08337d07c7ebbc6c68374d3321b1cf2813d65
 	}
     .slider {
         width: 100%; 

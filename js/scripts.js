@@ -55,7 +55,11 @@ r.onreadystatechange = function () {
 r.send("banana=yellow");
 });
 
+<<<<<<< HEAD
 /*----------------------------------------slickslider------------------------*/
+=======
+
+>>>>>>> 44e08337d07c7ebbc6c68374d3321b1cf2813d65
 
  $(document).on('ready', function() {
     $('.responsive').slick({
@@ -68,6 +72,7 @@ r.send("banana=yellow");
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
+<<<<<<< HEAD
         slidesToScroll: 3,
         infinite: true,
         
@@ -95,4 +100,9 @@ r.send("banana=yellow");
 
       });
        
+=======
+        slidesToScroll: 3
+      })
+       });
+>>>>>>> 44e08337d07c7ebbc6c68374d3321b1cf2813d65
 
