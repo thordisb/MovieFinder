@@ -55,14 +55,13 @@ r.onreadystatechange = function () {
 r.send("banana=yellow");
 });
 
-<<<<<<< HEAD
 /*----------------------------------------slickslider------------------------*/
-=======
-
->>>>>>> 44e08337d07c7ebbc6c68374d3321b1cf2813d65
 
  $(document).on('ready', function() {
-    $('.responsive').slick({
+$('.center').slick({
+  arrows: false,
+  centerMode: true,
+  dots: false,
   infinite: false,
   speed: 300,
   slidesToShow: 4,
@@ -72,37 +71,29 @@ r.send("banana=yellow");
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-<<<<<<< HEAD
         slidesToScroll: 3,
-        infinite: true,
-        
+        infinite: false,
+        dots: false
       }
     },
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
         slidesToShow: 1,
         slidesToScroll: 1
       }
-    }
+    },
+   
+    
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
     // instead of a settings object
   ]
 });
+});
 
-      });
+   
        
-=======
-        slidesToScroll: 3
-      })
-       });
->>>>>>> 44e08337d07c7ebbc6c68374d3321b1cf2813d65
+
+
 
