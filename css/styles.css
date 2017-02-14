@@ -1,3 +1,27 @@
+
+* {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+
+
 html{
 	 position: relative;
     min-height: 100%;
@@ -8,6 +32,7 @@ body{
     padding: 25px;
 }
 /*img{
+>>>>>>> 3530cb303999f5feae7dd8998c950801c0a5bbf0
 	width: 100%;
 	height: 100%;
 }*/
@@ -130,7 +155,11 @@ footer .logo{
 .plot{
 	display: block;
 	}
-
+	/*forsíða*/
+	.card{
+		height: 500px;
+		display: inline-block;
+	}
 
 @media print, screen and (max-width: 400px) {
 

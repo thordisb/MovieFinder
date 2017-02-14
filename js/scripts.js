@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function(){
 	$('superslider').slick({
 		infinite: true,
@@ -53,3 +54,13 @@ r.onreadystatechange = function () {
 };
 r.send("banana=yellow");
 });
+=======
+ $(document).on('ready', function() {
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+       });
+>>>>>>> e6f0877f545d0685d5efb569fb6b76ef0094913c
