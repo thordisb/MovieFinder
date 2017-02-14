@@ -3,11 +3,6 @@
       box-sizing: border-box;
     }
 
-    .slider {
-        width: 50%;
-        margin: 100px auto;
-    }
-
     .slick-slide {
       margin: 0px 20px;
     }
@@ -157,9 +152,21 @@ footer .logo{
 	}
 	/*forsíða*/
 .card{
+
 		height: 500px;
 		display: inline-block;
+		width: 100%;
+		max-width: 2000px;
 	}
+
+ .slider {
+        width: 50%;
+        margin: 100px auto;
+        background-color: #fff; 
+    }
+.cast{
+
+}
 
 @media print, screen and (max-width: 400px) {
 
@@ -218,4 +225,9 @@ footer .logo{
 	.plot{
 		display: none;
 	}
+	 .slider {
+        width: 100%;
+        margin: 100px auto;
+        background-color: #fff; 
+    }
  }
