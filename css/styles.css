@@ -1,37 +1,11 @@
 
-* {
-      box-sizing: border-box;
-    }
-
-    .slider {
-        width: 50%;
-        margin: 100px auto;
-    }
-
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-        color: black;
-    }
-
-
-<<<<<<< HEAD
-
 
 html {
-=======
-html{
->>>>>>> 600ff2986cfb5a245be374f87bc2aea1bfcce2b7
-	 position: relative;
+
+	 
     min-height: 100%;
 }
+
 body{
 	background-color: #F2ECE7;
 	 margin: 0 0 100px; /* bottom = footer height */
@@ -106,10 +80,7 @@ footer .logo{
 	font-size: 12px;
 	color: #FFF;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 600ff2986cfb5a245be374f87bc2aea1bfcce2b7
 /* about Movie */
 .moviebanner{
 	position: absolute;
@@ -165,16 +136,29 @@ footer .logo{
 .plot{
 	display: block;
 	}
-<<<<<<< HEAD
-
-
-=======
-	/*forsíða*/
-	.card{
-		height: 500px;
-		display: inline-block;
+/*----------------------------------------forsíða------------------------*/
+	.container {
+		height: 1200px;
+		
 	}
->>>>>>> 600ff2986cfb5a245be374f87bc2aea1bfcce2b7
+    .slider {
+        width: 100%; 
+        max-width: 2000px;   
+       
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+  
+
+
+
 
 @media print, screen and (max-width: 400px) {
 
