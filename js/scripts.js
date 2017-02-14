@@ -1,15 +1,14 @@
-
 $(document).ready(function(){
-	$('superslider').slick({
-		infinite: true,
-		dots: true,
-		arrows: true
-	})
+  $('superslider').slick({
+    infinite: true,
+    dots: true,
+    arrows: true
+  })
 
-	var token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1OGEyMzI5YWQxM2U2YmQ4NzJlZjZkZjQiLCJnbG9iYWxhZG1pbiI6ZmFsc2UsImFkbWluIjpmYWxzZSwiYWN0aXZlIjp0cnVlLCJmdWxsbmFtZSI6Ikhqw7ZyZMOtcyBFc3RlciBHdcOwasOzbnNkw7N0dGlyIiwiZW1haWwiOiJoam9yZGlzLmVzdGVyQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiaGpvcmRpc2VzdGVyIiwicGFzc3dvcmQiOiIkMmEkMDgkTVptODJMSEh2SkJvZy5KRkwwU3oyLjl3cHlDSFRIWURna0tVNUhZS0dCRVBWejJ2WHlQQnEiLCJkb21haW4iOiJ2ZWZza8OzbGlubiIsIm1lc3NhZ2UiOiJTa8OzbGF2ZXJrZWZuaSIsImlhdCI6MTQ4NzAyNjQxMiwiZXhwIjoxNDg3MTEyODEyfQ.m2KZblJ24Ja3_rx7XlwvWEsX2ysxxrUD57wAVDwNQPg"
-	
+  var token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1OGEyMzI5YWQxM2U2YmQ4NzJlZjZkZjQiLCJnbG9iYWxhZG1pbiI6ZmFsc2UsImFkbWluIjpmYWxzZSwiYWN0aXZlIjp0cnVlLCJmdWxsbmFtZSI6Ikhqw7ZyZMOtcyBFc3RlciBHdcOwasOzbnNkw7N0dGlyIiwiZW1haWwiOiJoam9yZGlzLmVzdGVyQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiaGpvcmRpc2VzdGVyIiwicGFzc3dvcmQiOiIkMmEkMDgkTVptODJMSEh2SkJvZy5KRkwwU3oyLjl3cHlDSFRIWURna0tVNUhZS0dCRVBWejJ2WHlQQnEiLCJkb21haW4iOiJ2ZWZza8OzbGlubiIsIm1lc3NhZ2UiOiJTa8OzbGF2ZXJrZWZuaSIsImlhdCI6MTQ4NzAyNjQxMiwiZXhwIjoxNDg3MTEyODEyfQ.m2KZblJ24Ja3_rx7XlwvWEsX2ysxxrUD57wAVDwNQPg"
+  
 
-	$.ajax({
+  $.ajax({
     url : 'http://api.kvikmyndir.is/movies?',
     type : 'GET',
     headers: { 
@@ -22,12 +21,12 @@ $(document).ready(function(){
 });
 
 
-	//$('.video').coverVid(1280,720);
+  //$('.video').coverVid(1280,720);
 
-	/*$.ajax({
+  /*$.ajax({
     url : 'http://api.kvikmyndir.is/authenticate',
     type : 'POST', 
-   	data : {
+    data : {
         username : "hjordisester",
         password : "xubq8a55"
     },
@@ -35,9 +34,9 @@ $(document).ready(function(){
     success : function (response) {
         console.log(response);
     }
-	}); */
+  }); */
 
-	var r = new XMLHttpRequest();
+  var r = new XMLHttpRequest();
 r.open("GET", "https://api.themoviedb.org/3/movie/550?api_key=93e810199af17af2ed9f9b206f27bffe", true);
 r.onreadystatechange = function () {
   if (r.readyState != 4 || r.status != 200) return;
@@ -55,11 +54,7 @@ r.onreadystatechange = function () {
 r.send("banana=yellow");
 });
 
-<<<<<<< HEAD
 /*----------------------------------------slickslider------------------------*/
-=======
-
->>>>>>> 44e08337d07c7ebbc6c68374d3321b1cf2813d65
 
  $(document).on('ready', function() {
     $('.responsive').slick({
@@ -72,7 +67,6 @@ r.send("banana=yellow");
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-<<<<<<< HEAD
         slidesToScroll: 3,
         infinite: true,
         
@@ -99,10 +93,3 @@ r.send("banana=yellow");
 });
 
       });
-       
-=======
-        slidesToScroll: 3
-      })
-       });
->>>>>>> 44e08337d07c7ebbc6c68374d3321b1cf2813d65
-

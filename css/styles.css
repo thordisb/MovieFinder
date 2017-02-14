@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 * {
       box-sizing: border-box;
     }
@@ -16,11 +15,9 @@
     .slick-next:before {
         color: black;
     }
-=======
->>>>>>> 677ddb3e0b6ea150e69f34f0883a4ebcf1671769
 
 html {
-
+	margin: 0px;
 	 
     min-height: 100%;
 }
@@ -28,7 +25,6 @@ html {
 body{
 	background-color: #F2ECE7;
 	 margin: 0 0 100px; /* bottom = footer height */
-    padding: 25px;
 }
 /*img{
 
@@ -125,7 +121,7 @@ footer .logo{
 	top: -128px;
   	width:100vw;
   	height: 260px;
-  	background-color: #fff;
+  	background-color: #F2ECE7;
 }
 .main{
 	margin-top: 390px;
@@ -155,23 +151,18 @@ footer .logo{
 .plot{
 	display: block;
 	}
-<<<<<<< HEAD
+
 /*----------------------------------------forsíða------------------------*/
 	.container {
 		height: 1200px;
-		
-=======
+		}
 	/*forsíða*/
 .card{
 
 		height: 500px;
 		display: inline-block;
-<<<<<<< HEAD
 		width: 100%;
 		max-width: 2000px;
-=======
->>>>>>> 44e08337d07c7ebbc6c68374d3321b1cf2813d65
->>>>>>> 677ddb3e0b6ea150e69f34f0883a4ebcf1671769
 	}
     .slider {
         width: 100%; 
