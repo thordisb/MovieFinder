@@ -129,7 +129,10 @@ footer .logo{
 	background-color: blue;
 	margin: 2px;
 	display: block;
-	}
+}
+.mobilestills{
+	display: none;
+}
 .still{
 	display: block;
 }
@@ -212,6 +215,9 @@ footer .logo{
 	.still{
 		display: none;
 	}
+{
+	display: block;
+}
 	.plot{
 		display: none;
 	}
