@@ -1,9 +1,8 @@
-$(document).ready(function(){
-	$('superslider').slick({
-		infinite: true,
-		dots: true,
-		arrows: true
-	})
-	
-	$('.video').coverVid(1280,720);
-});
+ $(document).on('ready', function() {
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+       });
