@@ -135,26 +135,26 @@ footer .logo{
 }
 .plot{
 	display: block;
-	}
+}
 
 /*----------------------------------------forsíða------------------------*/
-	.container {
-		height: 1200px;
-	}
+.container {
+	height: 800px;
+}
 	
-    .slider {
-        width: 100%; 
-          
-    }
+.slider {
+    width: 100%; 
+}
+.slick-slide {
+    margin: 0px 20px;
+}
 
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
+.slick-slide img {
+    width: 100%;
+}
+.container div h2 {
+	padding-left: 70px;
+}
   
 
 

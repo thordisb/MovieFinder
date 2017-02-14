@@ -58,19 +58,19 @@ r.send("banana=yellow");
 
 $(document).on('ready', function() {
 $('.center').slick({
+  initialSlide: 1,
  arrows: false,
  centerMode: true,
  dots: false,
  infinite: false,
  speed: 300,
- slidesToShow: 4,
+ slidesToShow: 3,
  
  responsive: [
    {
      breakpoint: 1024,
      settings: {
        slidesToShow: 3,
-     
        infinite: false,
        dots: false
      }
@@ -79,6 +79,7 @@ $('.center').slick({
      breakpoint: 600,
      settings: {
        slidesToShow: 1,
+       infinite: false,
       
      }
    }
