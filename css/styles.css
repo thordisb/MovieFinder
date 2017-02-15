@@ -1,4 +1,6 @@
-
+h1, h2, h3, h4, h5, h6, p{
+	color: #4F4F4F;
+}
 
 
 html {
@@ -122,6 +124,7 @@ footer .logo{
 	width: 80px;
 	padding: 17px;
 	border-radius: 50%;
+	color: #fff;
 }
 .stills{
 	width: 221px;
@@ -138,6 +141,22 @@ footer .logo{
 }
 .plot{
 	display: block;
+}
+#title{
+	font-size: 70px;
+	color: #4F4F4F;
+	padding: 50px;
+}
+.year, .dur{
+	padding-top: 25px;
+}
+#duration, #year{
+	font-size: 22px;
+	color: #3D6390;
+}
+#writers, #director{
+	font-size: 22px;
+	color: #4F4F4F;
 }
 
 /*----------------------------------------forsíða------------------------*/
@@ -208,6 +227,23 @@ footer .logo{
 		height:40px; 
 		width: 40px;
 		padding: 7px;
+	}
+	#title{
+		font-size: 28px;
+		padding: 5px;
+	}
+	.year, .dur{
+		padding-top: 25px;
+		font-size: 10px;
+	}
+	#duration, #year{
+		font-size: 13px;
+	}
+	#writers, #director{
+		font-size: 13px;
+	}
+	.storyline{
+		padding-left: 85px;
 	}
 	.stills{
 		display: none;
