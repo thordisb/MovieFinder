@@ -7,7 +7,6 @@ $(document).ready(function(){
 
   var token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1OGEyMzI5YWQxM2U2YmQ4NzJlZjZkZjQiLCJnbG9iYWxhZG1pbiI6ZmFsc2UsImFkbWluIjpmYWxzZSwiYWN0aXZlIjp0cnVlLCJmdWxsbmFtZSI6Ikhqw7ZyZMOtcyBFc3RlciBHdcOwasOzbnNkw7N0dGlyIiwiZW1haWwiOiJoam9yZGlzLmVzdGVyQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiaGpvcmRpc2VzdGVyIiwicGFzc3dvcmQiOiIkMmEkMDgkTVptODJMSEh2SkJvZy5KRkwwU3oyLjl3cHlDSFRIWURna0tVNUhZS0dCRVBWejJ2WHlQQnEiLCJkb21haW4iOiJ2ZWZza8OzbGlubiIsIm1lc3NhZ2UiOiJTa8OzbGF2ZXJrZWZuaSIsImlhdCI6MTQ4NzAyNjQxMiwiZXhwIjoxNDg3MTEyODEyfQ.m2KZblJ24Ja3_rx7XlwvWEsX2ysxxrUD57wAVDwNQPg"
   
-
   $.ajax({
     url : 'http://api.kvikmyndir.is/movies?',
     type : 'GET',
@@ -20,15 +19,14 @@ $(document).ready(function(){
     }
 });
 
-
   //$('.video').coverVid(1280,720);
 
   /*$.ajax({
     url : 'http://api.kvikmyndir.is/authenticate',
     type : 'POST', 
     data : {
-        username : "hjordisester",
-        password : "xubq8a55"
+        username : "oli",
+        password : "123456"
     },
     dataType : 'json',
     success : function (response) {

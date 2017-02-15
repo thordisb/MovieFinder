@@ -178,7 +178,10 @@ footer .logo{
 	padding-left: 70px;
 }
   
-
+/*-------------------------------slider in about movie--------------------*/
+.cast, .mobilestills{
+ height: 800px;
+}
 
 @media print, screen and (max-width: 400px) {
 
@@ -259,7 +262,13 @@ footer .logo{
 	}
 	 .slider {
         width: 100%;
-        margin: 100px auto;
+        margin: 20px auto;
         background-color: #fff; 
     }
- }
+ 
+
+ /*-------------------------------slider in about movie--------------------*/
+	.cast, .mobilestills{
+ 	height: 300px;
+	}
+}
