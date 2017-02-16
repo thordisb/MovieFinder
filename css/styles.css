@@ -139,7 +139,7 @@ footer .logo{
 
 /*----------------------------------------forsíða------------------------*/
 .container {
-	height: 800px;
+	height: 600px;
 }
 	
 .slider {
@@ -150,11 +150,17 @@ footer .logo{
 }
 
 .slick-slide img {
-    width: 100%;
+  	width: 100%
 }
 .container div h2 {
 	padding-left: 70px;
 }
+
+/*#textbox  {
+	background: #fff;
+	opacity: 0.2;
+	z-index: 50;
+}*/
   
 
 
