@@ -177,16 +177,36 @@ footer .logo{
 .container div h2 {
 	padding-left: 70px;
 }
-<<<<<<< HEAD
+
+.container3{
+	height: 600px;
+}
+
+#btn {
+	background-color: #FAA20E;
+	
+}
+#container {
+	display: none;
+}
+
 
 /*#textbox  {
 	background: #fff;
 	opacity: 0.2;
 	z-index: 50;
 }*/
-=======
->>>>>>> 202ca3586ee5387a8b7347de3ac988bcc3d00e03
-  
+/*----------------------------------------leit------------------------*/
+  #slider {
+  	width: 50%;
+  }
+
+  #genrebtn {
+  	width: 50%;
+  	text-align: center;
+  	margin: 20px;
+
+  }
 /*-------------------------------slider in about movie--------------------*/
 .cast, .mobilestills{
  height: 800px;
