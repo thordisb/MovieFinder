@@ -182,7 +182,78 @@ footer .logo{
 .cast, .mobilestills{
  height: 800px;
 }
+/*------------------------leit með texta----------------------*/
+.infocard{
+	margin-top: 35.5px;
+	padding-left: 35.5px;
+}
+.infocard img{
+	background-color: lightgrey;
+	height:158px; 
+	width:123px;
+}
 
+#cardinfo{
+	margin-bottom: 20px;
+	box-shadow:  1px 1px 5px #888888;
+	height: 229px;
+}
+#actname{
+	margin-top: 35.5px;
+	font-size:30px;
+	padding-left: 10px;
+}
+#gimli{
+	font-size:16px;
+	padding-left: 26px;
+	width: 80%;
+}
+#job{
+	font-size:16px ;
+	color: rgba(79, 79, 79, 0.5);
+	padding-left: 10px;
+}
+.rightcol{
+	margin-left: 10px;
+}
+.orangeline{
+	height: 2px;
+	background-color: #FAA20E;
+	margin-bottom: 20px;
+}
+
+/*------------------------leit með filter----------------------*/
+
+
+
+#filterrate, #filteryear{
+	color: #E84B33;
+	float: right;
+}
+.filt{
+	display: inline-block;
+}
+.tags{
+	font-size: 24px;
+	display: inline-block;
+	
+	
+}
+.tags p:visited{
+	background-color: #fff;
+	color: #E84B33;
+}
+
+.tags p{
+	height:41px; 
+	width: 149px;
+	color: #fff;
+	background-color: #E84B33;
+    padding: 0px 5px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
 @media print, screen and (max-width: 400px) {
 
 	.navbar{
@@ -271,4 +342,46 @@ footer .logo{
 	.cast, .mobilestills{
  	height: 300px;
 	}
+			/*------------------------leit með texta----------------------*/
+	.infocard{
+		margin-top: 35.5px;
+	}
+	.infocard img{
+		background-color: lightgrey;
+		height:85px; 
+		width:68px;
+		margin-left: 20px;
+	}
+
+	#cardinfo{
+		box-shadow: none;
+		height: 160px;
+	}
+	#actname{
+		font-size:12px;
+	}
+	#gimli{
+		font-size:10px;
+		width: 80%;
+	}
+	#job{
+		font-size:10px ;
+	}
+	.orangeline{
+		margin-right: 40px;
+	}
+
+	/*------------------------leit með filter----------------------*/
+
+	.tags p{
+	font-size: 12px; 
+	height:21px; 
+	width: 84px;
+	color: #fff;
+	background-color: #E84B33;
+    padding: 2px 0px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
 }
