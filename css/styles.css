@@ -197,16 +197,10 @@ footer .logo{
 	z-index: 50;
 }*/
 /*----------------------------------------leit------------------------*/
-  #slider {
-  	width: 50%;
-  }
-
-  #genrebtn {
-  	width: 50%;
-  	text-align: center;
-  	margin: 20px;
-
-  }
+ 
+  .row {
+	margin-top: 50px;
+}
 /*-------------------------------slider in about movie--------------------*/
 .cast, .mobilestills{
  height: 800px;

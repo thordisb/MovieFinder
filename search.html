@@ -8,89 +8,61 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
 	
-		<!-- Javascript -->
-		<script src="https://use.fontawesome.com/390ded57b1.js"></script>
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
-		<script type="text/javascript" src="js/foundation.js"></script>
-		<script type="text/javascript" src="js/jquery.js"></script>
+		
+		
 		
 	</head>
 	<body>
-		<div class="navbar">
-			<div class="row align-justify">
-				<div class="columns small-2">
-					<img class="logo" src="img/Moviebox_logo.png">
-				</div>
-				<div class="columns small-2 search">
-					<i class="fa fa-search" aria-hidden="true"></i>
-				</div>
-				<div class="row align-center align-middle welcometext">
-					<h1 class="columns small-12">Welcome to Movie Box</h1>
-					<h3 class="columns small-12">Your favorite movie source</h3>
-				</div>	
+		<div class="row">
+		  <div class="small-12 large-12 columns">
+		  	<input type="search" name="search" placeholder="Search..." id="search">
+		  </div>
+		</div>
+		
+		<div class="row">
+		  <div class="small-12 large-12 columns">
+		  <h3>Rating</h3>
+		  <div class="slider" data-slider data-initial-start="50" data-end="200">
+			  <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+			  <span class="slider-fill" data-slider-fill></span>
+			  <input type="hidden">
 			</div>
 		</div>
-		<div class="row align-right">
-			<div class="columns small-2">
-				<div> 
-					<i class="fa fa-times" id="close" aria-hidden="true"></i>
-				</div>
-			</div>
+		  </div>
 		</div>
-
-		<h3>Rating</h3>
-		<div class="slider" data-slider data-initial-start="25" data-initial-end="75" id="slider">
+		
+		<div class="row" id="top">
+		  <div class="small-12 large-12 columns">
+		  <h3>Year</h3>
+		  <div class="slider" data-slider data-initial-start="25" data-initial-end="75" id="slider">
 		  <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
 		  <span class="slider-fill" data-slider-fill></span>
 		  <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
 		  <input type="hidden">
 		  <input type="hidden">
 		</div>
-		<h3>Year</h3>
-		<div class="slider" data-slider data-initial-start="25" data-initial-end="75" id="slider">
-		  <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
-		  <span class="slider-fill" data-slider-fill></span>
-		  <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
-		  <input type="hidden">
-		  <input type="hidden">
+		  </div>
 		</div>
-		<h3>Genre</h3>
-		<div class="expanded button-group" id="genrebtn">
+		
+		<div class="row">
+		  <div class="small-12 large-12 columns">
+		  	<h3>Genre</h3>
+		<div class="expanded warning button-group" id="genrebtn">
 		  <a class="button">Action</a>
 		  <a class="button">Adventure</a>
 		  <a class="button">Animation</a>
 		</div>
-		<div class="expanded button-group" id="genrebtn">
-		  <a class="button">Action</a>
-		  <a class="button">Adventure</a>
-		  <a class="button">Animation</a>
+		<div class="expanded warning button-group" id="genrebtn">
+		  <a class="button">Comedy</a>
+		  <a class="button">Thriller</a>
+		  <a class="button">Crime</a>
 		</div>
-
-
-
-
-
-
-		<footer>
-			<div class="row align-center">
-				<div class="columns small-2">
-					<img class="logo" src="img/Moviebox_logo.png">
-				</div>
-			</div>
-			<div class="row align-center">
-				<ul>
-					<li class="footerlist columns small-3 large-5"><a href="#">About</a></li>
-					<li class="footerlist columns small-3 large-5"><a href="#">Term of Use</a></li>
-					<li class="footerlist columns small-3 large-5"><a href="#">FAQ</a></li>
-					<li class="footerlist columns small-3 large-5"><a href="#">Privacy</a></li>
-					<li class="footerlist columns small-3 large-5"><a href="#">Contact Us</a></li>
-				</ul>
-			</div>
-			<div class="row align-right">
-				<p class="CopyrightText">Copyright © 2016-2017 - MovieBox.io, inc.</p>
-			</div>
-		</footer>
-
+		  </div>
+		  
+		</div>
+		 <script src="https://use.fontawesome.com/390ded57b1.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/foundation.js"></script>
 	</body>
 </html>
